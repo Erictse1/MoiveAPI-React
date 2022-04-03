@@ -1,0 +1,146 @@
+body {
+	background-color: #1b1b1b;
+	font-family: 'Poppins', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* Top component */
+select {
+	width: 200px;
+	background: rgb(255, 217, 0);
+	height: 38px;
+	color: #1b1b1b;
+	font-weight: 500;
+	font-size: 13px;
+	margin-left: 100px;
+}
+
+header {
+	background: linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.7) 50%);
+
+	padding: 20px 0 20px 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+input {
+	text-align: left;
+}
+.search {
+	padding-left: 10px;
+	width: 360px;
+	height: 45px;
+	border: 2px solid #22254b;
+	border-radius: 10px;
+	background-color: transparent;
+	font-size: 1rem;
+	color: #fff;
+	font-family: inherit;
+}
+.search:focus {
+	outline: 0;
+	background-color: #1b1b1b;
+}
+.search:focus::placeholder {
+	color: #fff;
+}
+.search::placeholder {
+	color: antiquewhite;
+}
+/* main component */
+@media (max-width: 1350px) {
+	.overview {
+		display: none;
+	}
+	h3 {
+		display: none;
+	}
+}
+.container {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.overview {
+	width: 350px;
+	overflow: auto;
+	height: 200px;
+}
+.overviewandimage {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.overinover {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 30px;
+	color: rgb(255, 217, 0);
+	padding: 100px 20px 20px 20px;
+}
+h3 {
+	margin-top: -90px;
+}
+ul {
+	padding-left: 110px;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+p {
+	color: #fff;
+	text-shadow: 0 1px 6px rgba(92, 124, 129, 0.9);
+}
+img {
+	width: 230px;
+	height: 320px;
+	-webkit-box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35);
+	box-shadow: 0 1px 6px rgba(57, 73, 76, 0.9);
+	padding-right: 2px;
+}
+.title {
+	width: 200px;
+}
+.titleandvote {
+	width: 248px;
+	padding: 13px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.titleandvote p {
+	font-weight: 900;
+}
+.vote {
+	color: #cccccc;
+}
+/* bottom */
+
+.container2 p {
+	width: 30px;
+	height: 30px;
+	background: rgb(255, 217, 0);
+	color: black;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container2 {
+	background: black;
+	max-width: 100%;
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+svg {
+	padding: 10px;
+	font-size: 40px;
+	color: rgb(255, 217, 0);
+}
